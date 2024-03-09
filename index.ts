@@ -13,11 +13,19 @@ return info;
 }
 showInfo(info);
 
-const arrNumber:number[]=[1,2,3,4,5];
+const arrNumber: number[] | string[] = [1, 2, 3, 4, 5];
 console.log(arrNumber);
 
-const products:{name:string,price:number}[]=[{name:'Phone',price:3000}];
-console.log(products);
+;
+interface IProduct {
+    name: string;
+    price: number;
+}
+
+const products: IProduct[] = [
+    { name: "A", price: 10 }
+]
+console.log(arrNumber);
 
 
 
