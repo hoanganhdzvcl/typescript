@@ -3,7 +3,7 @@ import React from 'react'
 const Banner = () => {
     return (
         <section className="banner">
-            <img src="https://picsum.photos/1440/550" alt="" />
+            <img src="https://picsum.photos/id/10/1440/500" alt="" className="banner__img" />
         </section>
     )
 }
